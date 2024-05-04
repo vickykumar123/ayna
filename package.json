@@ -1,0 +1,18 @@
+{
+  "name": "my-strapi-project",
+  "version": "1.0.0",
+  "description": "A Strapi project with PostgreSQL and WebSocket support",
+  "main": "server.js",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.5",
+    "strapi": "^3.6.11",
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

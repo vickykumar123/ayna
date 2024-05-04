@@ -1,0 +1,8 @@
+const strapi = require("strapi");
+const websocketController = require("./api/websocket/websocket.controller");
+
+strapi()
+  .start()
+  .then(() => {
+    websocketController.initializeWebSocketServer();
+  });
